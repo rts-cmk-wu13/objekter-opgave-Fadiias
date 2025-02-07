@@ -55,7 +55,7 @@ sitesSection.innerHTML =  `
     <p>${sites.text}</p>
     <button>
        <img src="${sites.btnicon}" alt="Button Icon">Start</button>
-    </button>
+    
 </div>
 `;
        sites.places.forEach(place => {
