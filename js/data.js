@@ -18,8 +18,7 @@ let services = [
         illustration: "https://dazzling-squirrel-77a63d.netlify.app/imgs/illustrations/tourist_map.png",
         headline: "Additional services designed for the needs of campers",
         text: "Travelling often means that you dont have time to organise excursions along your route. EasyCamper takes care of that!",
-        linktext: "Discover the Guided Tours and additional services that you can link to your structure"
-    }, 
+        linktext: "Discover the Guided Tours and additional services that you can link to your structure"    },
     {
         illustration: "https://dazzling-squirrel-77a63d.netlify.app/imgs/illustrations/destination.png",
         headline: "Free online showcase with promotion in Italy and abroad",
@@ -30,11 +29,12 @@ let services = [
 
 let facilities = {
     headline: "Making your facility known is our priority",
-    options : [
+    options: [
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/list-check.png",
             headline: "Choose the type of stop",
-            text: "Select the type of stopover you are ordering from Equipped Area, Camping and Agricamping"
+            text: "Select the type of stopover you are ordering from Equipped Area, Camping and Agricamping",
+            linktext: "show me more"
         },
         {
             icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/spellcheck.png",
@@ -55,10 +55,13 @@ let facilities = {
 }
 
 let sites = {
-    headline: "Join the community campervan sites managers.",
-    text: "Discover all the equibbed areas in Italy. Find the shop with all the services for you and your camper.",
-    btnicon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/arrow-icon.png",
+
     places: [
+        {
+            headline: "Join the community campervan sites managers.",
+            text: "Discover all the equibbed areas in Italy. Find the shop with all the services for you and your camper.",
+            btnicon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/arrow-icon.png"
+        },
         {
             img: "https://dazzling-squirrel-77a63d.netlify.app/imgs/lucciano.png",
             name: "Lucciano",
@@ -79,20 +82,20 @@ let sites = {
 
 let advantages = [
     {
-        icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/compare.png",
+        icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/compare.png",
         headline: "Convenience and Transparency",
         text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
     },
     {
-        icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/library_books.png",
+        icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/library_books.png",
         headline: "Digital marketing and editorial support",
         text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
     },
     {
-        icon:"https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Compare-HSV.png",
+        icon: "https://dazzling-squirrel-77a63d.netlify.app/imgs/icons/Compare-HSV.png",
         headline: "Community of services dedicated to campers",
         text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
     },
 ]
 
-// Opret dit dataobjekt til footerens indhold herunder
+/* / Opret dit dataobjekt til footerens indhold herunder */

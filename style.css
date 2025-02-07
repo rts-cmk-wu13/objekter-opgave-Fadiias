@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 50px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'merriweather';
+}
+
+h2 {
+    font-size: 1.3em;
+    color: black;
+
+}
+
+.her {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    width: 609px;
+    height: 400px;
+    margin-top: 1em;
+    position: relative;
+    top: -16em;
+    left: 2em;
+    box-shadow: 0px 0px 107px -63px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: black;
+    text-align: left;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+
+}
+
+#hero-icon {
+    max-width: 1em;
+}
+
+.hero button {
+    background-color: rgba(247, 128, 101, 1);
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    column-gap: 0.5em;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.services div {
+
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(247, 128, 101, 1);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: unset;
+
+}
+
+.facilities {
+    background-color: #ffffff;
+    padding: 39px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 22rem repeat(4, 1fr);
+    justify-items: start;
+    padding-left: 3em;
+}
+
+.facilities h1 {
+    margin-left: 19px;
+    grid-column: 1/6;
+    margin-bottom: 3em;
+}
+
+.facilities div {
+
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    flex-direction: column;
+
+}
+
+.facilities img {
+
+    width: 26px;
+
+
+}
+
+.sites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    text-align: center;
+    align-items: start;
+}
+
+.sites div {
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sites h2 {
+    margin-left: 19px;
+    grid-row: 1;
+    margin-bottom: 3em;
+    
+}
+
+.sites button {
+    background-color: rgba(247, 128, 101, 1);
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    column-gap: 0.5em;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    width: 185px;
+    grid-row: 3;
+}
+.sites-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  
+    
+}
+.sites p{
+    text-align: start;
+}
+.sites h1{
+    font-size:xxx-large;
+    text-align: start;
+
+    }
+.site-img{
+    width: 300px;
+    height: 500px;
+}
+
+
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.advantages div {
+   
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+}
